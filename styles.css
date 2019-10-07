@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    background: rgb(54,1,62);
+    background: linear-gradient(360deg, rgba(54,1,62,1) 0%, rgba(158,13,182,1) 37%, rgba(218,24,251,1) 100%);
+    background-repeat: no-repeat;
+}
+
+#card{
+    width: 300px;
+    height: 420px;
+    top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: rgb(54,1,62);
+    background: linear-gradient(180deg, rgba(54,1,62,1) 0%, rgba(158,13,182,1) 69%, rgba(218,24,251,1) 100%);
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(54,1,62,1);
+}
+
+p{
+    margin-top: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 23px;
+}
+
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
